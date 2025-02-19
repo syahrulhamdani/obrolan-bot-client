@@ -30,5 +30,5 @@ jobs:
         context: .
         push: true
         tags: |
-          ${{ secrets.DOCKERHUB_USERNAME }}/pii-anonymizer:${{ steps.version.outputs.VERSION }}
-          ${{ secrets.DOCKERHUB_USERNAME }}/pii-anonymizer:latest
+          ${{ secrets.DOCKERHUB_USERNAME }}/obrolan-bot-client:${{ steps.version.outputs.VERSION }}
+          ${{ secrets.DOCKERHUB_USERNAME }}/obrolan-bot-client:latest
