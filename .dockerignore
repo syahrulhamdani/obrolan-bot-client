@@ -1,0 +1,17 @@
+.env
+.venv/
+venv/
+.git
+.gitigore
+.python-version
+
+# CI
+.codeclimate.yml
+.travis.yml
+.taskcluster.yml
+
+__pycache__
+*.swp
+.idea
+
+README.md
